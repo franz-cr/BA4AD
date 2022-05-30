@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Using Preferences</string>
+    <string name="hello_world">Preferences example</string>
+    <string name="menu_settings">Configuraciones</string>
+    <string name="main_act_menu_item_1">Main - Item 1</string>
+    <string name="main_act_menu_item_2">Main - Item 2</string>
+    <string name="main_act_menu_item_3">Main - Item 3</string>
+    <string name="bttPreferences">Load Preferences Screen</string>
+    <string name="btnDisplayValues">Display Preferences Values</string>
+    <string name="btnModifyValues">Modify Preferences Values</string>
+    <string name="txtString">Ingrese el texto</string>
+
+</resources>

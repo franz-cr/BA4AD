@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_settings">
+        <menu>
+            <item android:id="@+id/mniMainActivityItem1" android:title="@string/main_act_menu_item_1" android:enabled="true"/>
+            <item android:id="@+id/mniMainActivityItem2" android:title="@string/main_act_menu_item_2" android:enabled="true"/>
+            <item android:id="@+id/mniMainActivityItem3" android:title="@string/main_act_menu_item_3" android:enabled="true"/>
+        </menu>
+    </item>
+    <item android:id="@+id/item1"></item>
+
+</menu>

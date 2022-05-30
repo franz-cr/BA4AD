@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="3dp"
+    android:orientation="vertical"
+    tools:context=".UsingPreferencesActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <Button
+        android:id="@+id/bttPreferences"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bttPreferences"
+        android:onClick="onClickLoad" />
+
+    <Button
+        android:id="@+id/bttDisplayValues"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnDisplayValues" 
+        android:onClick="onClickDisplay" />
+
+    <EditText
+        android:id="@+id/txtString"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="@string/txtString" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/bttModifyValues"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnModifyValues" />
+
+</LinearLayout>
